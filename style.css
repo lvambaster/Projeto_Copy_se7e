@@ -1,0 +1,212 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@700&family=Encode+Sans+Condensed:wght@200;500&family=Young+Serif&display=swap');
+@font-face{
+    font-family: 'Changa', sans-serif;
+
+    font-family: 'Encode Sans Condensed', sans-serif;
+
+    font-family: 'Young Serif', serif;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('font/Roboto-Bold.ttf') format('opentype');
+    font-weight: normal;
+}
+
+:root{
+    --cor1:#D6D58E;
+    --cor2:#DBF227;
+    --cor3:#9FC131;
+    --cor4:#005C53;
+    --cor5:#042940;
+
+    --fonte-padrao: 'arial', 'verdana', 'helvetica', 'sans-serif';
+    --font-destaque:'roboto', 'cursive'; 
+    
+
+}
+
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+       background-color: var(--cor1);
+
+}
+
+body header img {
+       width: 100%;
+       border: 0%;
+       margin-bottom: 0%;
+       height: 200px;
+      
+}
+
+
+.logomarca{
+     position: absolute;
+     width: 20%;
+      
+
+}
+.nav-item{
+   font-family: var(--font-destaque);
+   
+
+}
+.navbar{
+    background-color: var(--cor4);
+}
+
+
+
+
+nav {
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.438);
+    
+
+}
+
+.nav {
+    
+    height: 40px;
+    background-color: var(--cor4);
+    
+    font-family: var(--font-destaque);
+    font-weight: bolder;
+    text-decoration:none;
+    color: var(--cor2);
+}
+a {
+    
+    
+    color: white;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    font-weight: bolder;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(15, 150, 109);
+    color: var(--cor4);
+    
+}
+
+main { 
+    border: 10px;
+    
+    min-width: 320px;
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px 10px 10px;
+    height: 100%;    
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.459);
+
+}
+
+main  p {
+     text-align: justify;
+     padding: 20px;
+     font-family: var(--fonte-padrao);
+     font-weight: 200;
+     min-width: 300px;
+     max-width: 1000px;
+     margin: auto;
+
+}
+
+h3 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+h1{
+    padding: 5px 5px 5px 5px;
+    font-family: var(--font-destaque);
+    background-image: linear-gradient(to left, white, var(--cor1), var(--cor4) );
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px
+    
+
+}
+.whatsapp{
+    width: 80px;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    bottom: 0px;
+    right: 80px;
+
+    
+}
+
+footer {
+    background-color: var(--cor4);
+    
+}
+footer > p {
+    text-align: center;
+    color: white;
+}
+
+/* pagina contato */
+/* pagina contato */
+/* pagina contato */
+
+form{
+    font-family: var(--font-destaque);
+    
+    width: 300px;
+    float:right;    
+    font-family: var(--fonte-padrao);
+    padding: 15px;
+}
+
+
+.contato{
+    
+    width: 300px;
+    padding: 15px;
+    
+    font-family: var(--fonte-padrao); 
+            
+}
+
+.clear{
+    clear: both;
+}
+
+#linkzap{
+    text-decoration: none;
+}
+
+a#linkzap:link{
+    color: var(--cor4);
+    
+}
+
+/* pagina encadernaçoes  */
+/* pagina encadernaçoes  */
+/* pagina encadernaçoes  */
+
+
+#encadernaçoes{
+    font-family: var(--font-destaque);
+}
+
+
+.serviços{
+    text-align: center;
+   
+}
+
+
